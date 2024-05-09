@@ -1,0 +1,11 @@
+@import './Font/font.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: 'Canaro', system-ui, sans-serif;
+  }
+}
